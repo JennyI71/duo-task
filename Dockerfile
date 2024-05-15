@@ -1,5 +1,3 @@
-Flask-app;
-
 # Use Python 3.6 as a base image
 
 FROM python:3.6
