@@ -70,7 +70,7 @@ spec:
 
       - name: nginx-container
 
-        image: Jennyi71/flask-nginx:latest
+        image: jenny-innes@hotmail.co.uk/flask-nginx:latest
 
         ports:
 
