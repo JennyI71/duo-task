@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 
 #setting environment variable 
 
-ENV Jennyi71 QA
+ENV JENNY_INNES QA
 
 # Expose the correct port
 
