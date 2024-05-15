@@ -68,7 +68,7 @@ spec:
 
       - name: flask-container
 
-        image: Jennyi71/duo-deploy-flask:latest
+        image: jenny-innes@hotmail.co.uk/duo-deploy-flask:latest
 
         ports:
 
@@ -76,6 +76,6 @@ spec:
 
         env:
 
-        - name: YOUR_NAME
+        - name: jenny-innes@hotmail.co.uk
 
           value: Jenny
