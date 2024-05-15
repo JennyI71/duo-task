@@ -14,6 +14,10 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
+#setting environment variable 
+
+ENV Jenny_Innes
+
 # Expose the correct port
 
 EXPOSE 5500
