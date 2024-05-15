@@ -76,6 +76,6 @@ spec:
 
         env:
 
-        - name: Jennyi71
+        - name: YOUR_NAME
 
           value: Piers
