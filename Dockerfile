@@ -12,7 +12,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-#setting environment variable 
+# Setting environment variable 
 
 ENV JENNY_INNES QA
 
