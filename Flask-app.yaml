@@ -78,6 +78,6 @@ spec:
 
         env:
 
-        - name: YOUR_NAME
+        - name: JENNY_INNES
 
           value: Piers
