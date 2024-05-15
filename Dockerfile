@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 
 # Setting environment variable 
 
-ENV Jennyi71 QA
+ENV jenny-innes@hotmail.co.uk QA
 
 # Expose the correct port
 
