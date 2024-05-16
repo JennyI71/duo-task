@@ -18,7 +18,7 @@ ENV jennyi71 QA
 
 # Expose the correct port
 
-EXPOSE 5000
+EXPOSE 5500
 
 # Create an entrypoint
 
