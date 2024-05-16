@@ -52,7 +52,7 @@ spec:
 
       maxSurge: 20%
 
-      maxUnavailable: 20%
+      maxUnavailable: 25%
 
   template:
 
