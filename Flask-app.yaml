@@ -18,9 +18,9 @@ spec:
 
   - protocol: TCP
 
-    port: 5500
+    port: 5000
 
-    targetPort: 5500
+    targetPort: 5000
 
 ---
 
@@ -68,14 +68,30 @@ spec:
 
       - name: flask-container
 
-        image: jennyi71/duo-deploy-flask:latest
+        image: jennyi71/trio-flask:latest
 
         ports:
 
-        - containerPort: 5500
+        - containerPort: 5000
 
         env:
 
-        - name: jennyi71
+        - name: MYSQLPW
 
-          value: Jenny
+          valueFrom:
+
+            secretKeyRef:
+
+              name: mysql-credentials
+
+              key: MYSQL_ROOT_PASSWORD      
+
+        - name: DBNAME
+
+          valueFrom:
+
+            secretKeyRef:
+
+              name: mysql-credentials
+
+              key: MYSQL_DATABASE
